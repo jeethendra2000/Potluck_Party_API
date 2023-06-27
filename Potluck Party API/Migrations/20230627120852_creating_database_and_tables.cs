@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Potluck_Party_API.Migrations
 {
     /// <inheritdoc />
-    public partial class one2one : Migration
+    public partial class creating_database_and_tables : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

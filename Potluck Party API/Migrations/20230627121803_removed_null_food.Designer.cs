@@ -12,8 +12,8 @@ using Potluck_Party_API.Data;
 namespace Potluck_Party_API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230627105627_one2one")]
-    partial class one2one
+    [Migration("20230627121803_removed_null_food")]
+    partial class removed_null_food
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,6 +31,7 @@ namespace Potluck_Party_API.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Food")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Quantity")

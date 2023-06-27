@@ -10,7 +10,7 @@ namespace Potluck_Party_API.Models.Dto
         [Required]
         [EmailAddress]
         public string Email { get; set; }
-        public string? Food { get; set; }
+        public string Food { get; set; }
         public int Quantity { get; set; }
     }
 }

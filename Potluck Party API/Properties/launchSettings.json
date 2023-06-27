@@ -7,7 +7,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "MAXIMUM_ATTENDEES": "30",
-        "MAXIMUM_SERVINGS_PER_DISH": "3"
+        "MAXIMUM_SERVINGS_PER_DISH": "30"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7008;http://localhost:5262"
